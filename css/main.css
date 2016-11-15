@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,8 +18,9 @@ body {
 
 }
 
-.banner-img {
+.img-flex {
   width: 100%;
+  display: block;
 }
 
 .banner-content {
@@ -35,7 +36,7 @@ body {
 
 .banner-content p {
   color: black;
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
 }
 
@@ -43,6 +44,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: .2em;
   margin-right: 0;
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 4rem;
 }
