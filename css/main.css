@@ -31,6 +31,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0 1.7em;
 
 }
 
@@ -38,12 +39,22 @@ body {
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
+  margin-top: 0;
+  font-style: italic;
+  bottom: 1.5em;
 }
 
 .banner-content h1 {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top: .2em;
+  margin-top: 0;
   margin-right: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+h2 {
+  margin-top: 0;
 }
